@@ -2,8 +2,6 @@ import React from "react";
 import {Avatar, Dropdown, Menu} from "antd";
 import CustomScrollbars from '../../../../util/CustomScrollbars'
 
-import labels from "../../../../routes/mail/data/labels";
-
 const options = [
   'Reply',
   'Forward',
