@@ -9,11 +9,13 @@ import AddContact from "../../app/components/contact/AddContact";
 import IntlMessages from "../../util/IntlMessages";
 import axios from 'axios'
 import './index.css';
-
+import {Cookies} from "react-cookie";
 let contactId = 723812738;
 
 class Contact extends Component {
   async componentWillMount(){
+    let cookies  = new Cookies()
+    console.log(cookies.get('token'))
     const res = await axios.get('https://desolate-inlet-76011.herokuapp.com/users')
     this.setState({contactList: res.data, allContact: res.data})
   }

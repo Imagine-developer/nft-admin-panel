@@ -42,7 +42,7 @@ const useProvideAuth = () => {
 
   const userLogin = (data, callbackFun) => {
     fetchStart();
-    httpClient.post('auth/login', data)
+    httpClient.post('admin/login', data)
       .then(({data}) => {
         if (data.result) {
           fetchSuccess();
@@ -81,22 +81,11 @@ const useProvideAuth = () => {
 
   const userSignOut = (callbackFun) => {
     fetchStart();
-    httpClient.post('auth/logout')
-      .then(({data}) => {
-        if (data.result) {
           fetchSuccess();
           setAuthUser(false);
           httpClient.defaults.headers.common['Authorization'] = '';
           const cookies = new Cookies();
           cookies.remove('token');
-          if (callbackFun) callbackFun();
-        } else {
-          fetchError(data.error);
-        }
-      })
-      .catch(function (error) {
-        fetchError(error.message);
-      });
   };
 
   const getAuthUser = () => {
