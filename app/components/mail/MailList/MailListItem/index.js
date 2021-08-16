@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {Avatar, Checkbox, Dropdown, Menu} from "antd";
 
-import labels from "../../../../../routes/mail/data/labels";
 import AddMail from './../../addMail'
 import axios from 'axios'
 
