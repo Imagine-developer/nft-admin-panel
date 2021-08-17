@@ -53,8 +53,6 @@ const SignIn = (props) => {
                   <IntlMessages id="app.userAuth.signIn"/>
                 </Button>
               </Form.Item>
-              <span
-                className="gx-text-light gx-fs-sm"> demo user email: 'demo@example.com' and password: 'demo#123'</span>
             </Form>
           </div>
           {isLoading &&

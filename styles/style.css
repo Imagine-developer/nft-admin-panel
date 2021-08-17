@@ -38329,7 +38329,7 @@ textarea.gx-chat-textarea {
   z-index: 1;
   right: 0;
   bottom: 0;
-  background-color: rgba(3, 143, 222, 0.7);
+  background-color: green;
 }
 .gx-app-logo-content-bg img {
   width: 100%;
