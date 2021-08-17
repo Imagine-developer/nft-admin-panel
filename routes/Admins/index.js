@@ -15,7 +15,13 @@ let contactId = 723812738;
 
 class Contact extends Component {
 
-
+  async componentDidMount(){
+    const admins = await axios.get('https://desolate-inlet-76011.herokuapp.com/admins')
+    this.setState({
+      allContact: admins,
+      contactList: admins,
+    })
+  }
 
   ContactSideBar = (user) => {
     return <div className="gx-module-side">
@@ -72,7 +78,7 @@ class Contact extends Component {
     // this.onFilterOptionSelect(this.state.filterOption);
   };
   onDeleteContact = async (data) => {
-    const res = await axios.delete('https://desolate-inlet-76011.herokuapp.com/user/' + data._id)
+    const res = await axios.delete('https://desolate-inlet-76011.herokuapp.com/admin/' + data._id)
     this.setState({
       alertMessage: 'Contact Deleted Successfully',
       showMessage: true,
