@@ -1,18 +1,7 @@
 {
-  "/404": "pages/404.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/admins": "pages/admins.js",
-  "/banners": "pages/banners.js",
-  "/forgot-password": "pages/forgot-password.js",
-  "/": "pages/index.js",
-  "/mail": "pages/mail.js",
-  "/nfts": "pages/nfts.js",
-  "/pages": "pages/pages.js",
-  "/reset-password": "pages/reset-password.js",
-  "/signin": "pages/signin.js",
-  "/signup": "pages/signup.js",
-  "/users": "pages/users.js",
-  "/whitelist": "pages/whitelist.js"
+  "/": "pages/index.js"
 }

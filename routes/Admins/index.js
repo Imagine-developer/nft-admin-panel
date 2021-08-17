@@ -17,9 +17,10 @@ class Contact extends Component {
 
   async componentDidMount(){
     const admins = await axios.get('https://desolate-inlet-76011.herokuapp.com/admins')
+    console.log(admins)
     this.setState({
-      allContact: admins,
-      contactList: admins,
+      allContact: admins.data,
+      contactList: admins.data,
     })
   }
 
