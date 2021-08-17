@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport asyncComponent from '../util/asyncComponent';\nconst ForgotPassword = asyncComponent(() => import('../routes/userAuth/ForgotPassword'));\n\nconst ForgotPasswordPage = () => __jsx(ForgotPassword, null);\n\nexport default ForgotPasswordPage;","map":null,"metadata":{},"sourceType":"module"}

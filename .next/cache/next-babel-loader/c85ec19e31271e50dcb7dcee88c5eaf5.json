@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from \"redux\";\nimport Settings from \"./Settings\";\nimport Common from \"./Common\";\nconst reducers = combineReducers({\n  settings: Settings,\n  common: Common\n});\nexport default reducers;","map":null,"metadata":{},"sourceType":"module"}

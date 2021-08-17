@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from 'axios';\nexport const httpClient = axios.create({\n  baseURL: `https://desolate-inlet-76011.herokuapp.com/`,\n  //YOUR_API_URL HERE\n  headers: {\n    'Content-Type': 'application/json'\n  }\n});","map":null,"metadata":{},"sourceType":"module"}

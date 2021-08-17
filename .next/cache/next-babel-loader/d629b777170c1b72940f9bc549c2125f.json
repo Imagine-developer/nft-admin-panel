@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport asyncComponent from '../../util/asyncComponent';\nconst Sample = asyncComponent(() => import('../../routes/Whitelist'));\n\nconst WhitelistPage = () => __jsx(Sample, null);\n\nexport default WhitelistPage;","map":null,"metadata":{},"sourceType":"module"}

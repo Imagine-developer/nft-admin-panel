@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default [{\n  'id': 0,\n  'handle': 'starred',\n  'title': 'Starred',\n  'icon': 'star'\n}, {\n  'id': 1,\n  'handle': 'important',\n  'title': 'Important',\n  'icon': 'tag'\n}];","map":null,"metadata":{},"sourceType":"module"}

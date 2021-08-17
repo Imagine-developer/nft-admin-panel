@@ -92,7 +92,7 @@ class Contact extends Component {
     description: data.description,
     img: resImgUrl.data.url,
     pdf: resPdfUrl.data.url,
-    userId: '6115b2279a6974b8998f3728'
+    wallet: walletAddress
 
   })
     let txData = NFT.methods.create(1, ipfsImgHash, ipfsPdfHash).encodeABI()

@@ -6,7 +6,7 @@ import CustomScrollbars from "../../util/CustomScrollbars";
 import contactList from '../../routes/Contact/data/contactList'
 import ContactList from "../../app/components/contact/ContactList";
 import AppModuleHeader from "../../app/components/AppModuleHeader";
-import AddContact from "../../app/components/contact/AddContact";
+import AddContact from "../../app/components/contact/AddAdmin";
 import IntlMessages from "../../util/IntlMessages";
 import axios from 'axios'
 import './index.css';
@@ -62,10 +62,11 @@ class Contact extends Component {
     this.setState({addContactState: false});
   };
   onSaveContact = async (data) => {
-      this.setState({contactList: [...this.state.contactList, result.data],
+    const admin = await axios.post('https://desolate-inlet-76011.herokuapp.com/admin/register', data)
+      this.setState({contactList: [...this.state.contactList, data],
         alertMessage: 'Users Updated Successfully',
         showMessage: true,
-      allContact: [...this.state.contactList, result.data]})
+      allContact: [...this.state.contactList, data]})
 
 
     // this.onFilterOptionSelect(this.state.filterOption);

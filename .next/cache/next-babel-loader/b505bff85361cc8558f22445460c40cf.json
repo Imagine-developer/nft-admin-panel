@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { FormattedMessage, injectIntl } from 'react-intl';\n\nconst InjectMassage = props => __jsx(FormattedMessage, props);\n\nexport default injectIntl(InjectMassage, {\n  withRef: false\n});","map":null,"metadata":{},"sourceType":"module"}

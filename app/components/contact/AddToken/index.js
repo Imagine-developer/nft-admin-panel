@@ -58,7 +58,7 @@ class AddContact extends React.Component {
 
           <div className="gx-modal-box-form-item">
             {img ?           <div className="gx-form-group">
-              <img src={img}/>
+              <img src={URL.createObjectURL(img)} className='photo'/>
             </div> : null}
 
             <div className="gx-form-group">

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default [{\n  'id': 1457690400,\n  'name': 'Admin',\n  'thumb': \"https://via.placeholder.com/150x150\",\n  'email': 'test@test.com',\n  'phone': 'Admin',\n  'designation': 'Admin',\n  'selected': false,\n  'starred': false,\n  'frequently': true\n}];","map":null,"metadata":{},"sourceType":"module"}

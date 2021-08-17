@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport asyncComponent from \"../util/asyncComponent\";\nconst SignUp = asyncComponent(() => import('../routes/userAuth/SignUp'));\n\nconst SignUpPage = () => __jsx(SignUp, null);\n\nexport default SignUpPage;","map":null,"metadata":{},"sourceType":"module"}

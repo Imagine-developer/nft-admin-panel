@@ -11,7 +11,7 @@ import options from "./data/options";
 import MailList from "../../app/components/mail/MailList";
 import ComposeMail from "../../app/components/mail/Compose";
 import AppModuleHeader from "../../app/components/AppModuleHeader";
-import MailDetail from "../../app/components/mail/MailDetail";
+import MailDetail from "../../app/components/mail/SupportDetail";
 import IntlMessages from "../../util/IntlMessages";
 import CircularProgress from "../../app/components/CircularProgress";
 

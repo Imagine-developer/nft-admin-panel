@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default [{\n  'title': 'All'\n}, {\n  'title': 'None'\n}, {\n  'title': 'Read'\n}, {\n  'title': 'Unread'\n}, {\n  'title': 'Starred'\n}, {\n  'title': 'Unstarred'\n}, {\n  'title': 'Important'\n}, {\n  'title': 'Unimportant'\n}];","map":null,"metadata":{},"sourceType":"module"}
